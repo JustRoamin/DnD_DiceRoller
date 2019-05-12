@@ -1,0 +1,9 @@
+c:\users\josh\documents\visual studio 2015\Projects\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe.config
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\bin\Debug\Dice Roller.pdb
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\obj\Debug\Dice_Roller.Form1.resources
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\obj\Debug\Dice_Roller.Properties.Resources.resources
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csproj.GenerateResource.Cache
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\obj\Debug\Dice Roller.exe
+C:\Users\Josh\Documents\Visual Studio 2015\Projects\Dice Roller\Dice Roller\obj\Debug\Dice Roller.pdb
