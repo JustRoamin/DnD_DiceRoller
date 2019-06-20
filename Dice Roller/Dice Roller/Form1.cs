@@ -1,7 +1,7 @@
 ﻿/* Creator:     Joshua M. Haddix
  * Created:     5/12/19
- * Updated:     5/20/19
- * 
+ * Updated:     6/20/19
+ * version:     v1.01
  * Project Description: Dice Roller to be used for Dungeons and Dragons 
 */
 using System;
@@ -41,54 +41,58 @@ namespace Dice_Roller
             if (checkValidation() == false)
                 validator();
             else
-                roll();    
+                roll();
         }
 
         // Helper function to insure that the entered values are integers stopping exception errors being thrown by non-integer values
         private void validator()
         {
-            int checker;
-            bool check1 = int.TryParse(maskedTextBox1.Text, out checker);
-            bool check2 = int.TryParse(maskedTextBox2.Text, out checker);
-            bool check3 = int.TryParse(maskedTextBox3.Text, out checker);
-            bool check4 = int.TryParse(maskedTextBox4.Text, out checker);
-            bool check5 = int.TryParse(maskedTextBox5.Text, out checker);
-            bool check6 = int.TryParse(maskedTextBox6.Text, out checker);
-            bool check7 = int.TryParse(maskedTextBox7.Text, out checker);
-            bool check8 = int.TryParse(maskedTextBox8.Text, out checker);
+            for (int x = 0; x < 8; x++)
+            {
+                int checker;
+                bool check1 = int.TryParse(maskedTextBox1.Text, out checker);
+                bool check2 = int.TryParse(maskedTextBox2.Text, out checker);
+                bool check3 = int.TryParse(maskedTextBox3.Text, out checker);
+                bool check4 = int.TryParse(maskedTextBox4.Text, out checker);
+                bool check5 = int.TryParse(maskedTextBox5.Text, out checker);
+                bool check6 = int.TryParse(maskedTextBox6.Text, out checker);
+                bool check7 = int.TryParse(maskedTextBox7.Text, out checker);
+                bool check8 = int.TryParse(maskedTextBox8.Text, out checker);
 
-            if (check1 == false)
-            {
-                maskedTextBox1.Text = "0";
+                if (check1 == false)
+                {
+                    maskedTextBox1.Text = "0";
+                }
+                else if (check2 == false)
+                {
+                    maskedTextBox2.Text = "0";
+                }
+                else if (check3 == false)
+                {
+                    maskedTextBox3.Text = "0";
+                }
+                else if (check4 == false)
+                {
+                    maskedTextBox4.Text = "0";
+                }
+                else if (check5 == false)
+                {
+                    maskedTextBox5.Text = "0";
+                }
+                else if (check6 == false)
+                {
+                    maskedTextBox6.Text = "0";
+                }
+                else if (check7 == false)
+                {
+                    maskedTextBox7.Text = "0";
+                }
+                else if (check8 == false)
+                {
+                    maskedTextBox8.Text = "0";
+                }
             }
-            else if (check2 == false)
-            {
-                maskedTextBox2.Text = "0";
-            }
-            else if (check3 == false)
-            {
-                maskedTextBox3.Text = "0";
-            }
-            else if (check4 == false)
-            {
-                maskedTextBox4.Text = "0";
-            }
-            else if (check5 == false)
-            {
-                maskedTextBox5.Text = "0";
-            }
-            else if (check6 == false)
-            {
-                maskedTextBox6.Text = "0";
-            }
-            else if (check7 == false)
-            {
-                maskedTextBox7.Text = "0";
-            }
-            else if (check8 == false)
-            {
-                maskedTextBox8.Text = "0";
-            }
+
         }
 
         // Rolling simulation function: After integers values have been confirmed they are parsed and used as limits to determine how many
